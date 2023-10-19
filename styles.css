@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background-color: #ddeff9; 
+}
+
+canvas {
+    border: 2px solid #7b9eb1; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+   
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#aad5f4, #e6f2ff); 
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #5a7a8c; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
